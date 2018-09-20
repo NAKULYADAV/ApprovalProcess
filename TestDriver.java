@@ -18,10 +18,11 @@ public class TestDriver
 
 		/*
 		 * create hierarchy or set your own using
-		 * workFlowManager.setHierarchy(hierarchy);
+		 * workFlowManager.setHierarchy(hierarchy); or create another
+		 * class(WorkFlowManager) extending AstractWorkFlowManager
 		 */
 		workFlowManager.createHierarchy();
-		
+
 		workFlowManager.process();
 	}
 }
